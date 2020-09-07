@@ -18,6 +18,8 @@ https://github.com/fed135/ha-store
 
 This README is in construction.
 
+As well as the library.
+
 
 ## License 
 
