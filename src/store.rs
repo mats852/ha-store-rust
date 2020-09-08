@@ -19,13 +19,13 @@ impl<'a, K: Clone + Hash + Eq, V> Store<K, V> {
   }
 
   // FIXME: Lifetime problem
-  //  E0495 - cannot infer an appropriate lifetime for 
+  //  E0495 - cannot infer an appropriate lifetime for
   //  autoref due to conflicting requirements
   pub fn get_multi(&mut self, keys: &Vec<&K>) -> Vec<Option<&V>> {
     return keys
       .iter()
       .map(|&key| self.get(key))
-      .collect::<Vec<Option<&V>>>();
+      .collect::<Vec<_>>();
   }
 
   // TODO: Set multiple records
