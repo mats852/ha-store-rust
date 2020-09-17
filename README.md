@@ -23,4 +23,4 @@ As well as the library.
 
 ## License 
 
-[GPL v2](LICENSE) (c) 2020 Mathieu St-Vincent
+[Apache 2.0](LICENSE) (c) 2020 Mathieu St-Vincent
